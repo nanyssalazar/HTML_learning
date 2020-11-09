@@ -8,7 +8,7 @@
    }
 .navegacion {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .navegacion img{
     width: 20px;
@@ -56,6 +56,8 @@ li img{
     font-size: 36px;
 }
 
+/* main*/
+
 .columns {
   display: flex;
   justify-content: space-between;
@@ -85,7 +87,6 @@ li img{
  
 }
 
-
 .titulo-col1{
     margin: 50px;
     margin-bottom: 0;
@@ -95,19 +96,16 @@ li img{
     line-height: 2rem;
 }
 
-
 .second-content{
     flex-basis: calc(25%);
     line-height: 2rem;
     
 }
 
-
 .barra {
     display: flex;
     justify-content: space-between;
 }
-
 
 .terms{
     display: flex;
